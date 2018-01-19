@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { VideoComponent } from './video/video.component';
 import { SchloarshipsComponent } from './schloarships/schloarships.component';
 import { TutorComponent } from './tutor/tutor.component';
+import { MainpageComponent } from './mainpage/mainpage.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { TutorComponent } from './tutor/tutor.component';
     HeaderComponent,
     VideoComponent,
     SchloarshipsComponent,
-    TutorComponent
+    TutorComponent,
+    MainpageComponent
   ],
   imports: [
     BrowserModule,
